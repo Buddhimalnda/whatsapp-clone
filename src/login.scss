@@ -1,0 +1,15 @@
+.login{
+    margin: 20% 47px;
+    .input{
+        width: 100% !important;
+    }
+    .btn{
+        width: 100% !important;   
+    }
+}
+.loading{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    justify-items: center;
+}
