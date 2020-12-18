@@ -1,0 +1,27 @@
+.app {
+    display: grid;
+    place-items: center;
+    background: #dadbd3;
+    height: 100vh;
+
+    .app__body {
+        display: flex;
+        background: #ededed;
+        height: 90vh;
+        width: 90vw;
+        margin-top: -50px;
+        -webkit-box-shadow: 11px 21px 33px -8px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 11px 21px 33px -8px rgba(0, 0, 0, 0.75);
+        box-shadow: 11px 21px 33px -8px rgba(0, 0, 0, 0.75);
+    }
+    .app__body__login{
+        display: flex;
+        background: #ededed;
+        height: 500px;
+        width: 500px;
+        margin-top: -50px;
+        -webkit-box-shadow: 11px 21px 33px -8px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 11px 21px 33px -8px rgba(0, 0, 0, 0.75);
+        box-shadow: 11px 21px 33px -8px rgba(0, 0, 0, 0.75);
+    }
+}

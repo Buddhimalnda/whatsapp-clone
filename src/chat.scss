@@ -1,0 +1,80 @@
+.chat {
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+    .header {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid lightgray;
+
+        .info {
+            flex: 1;
+            padding-left: 20px;
+            p {
+                color: gray;
+            }
+        }
+        .right {
+            display: flex;
+            justify-content: space-between;
+            min-width: 100px;
+        }
+    }
+    .body {
+        flex: 1;
+        background-image: url("./whatsapp-bg.png");
+        background-repeat: repeat;
+        background-position: center;
+        padding: 30px;
+        overflow: scroll;
+        .mzj{
+            position: relative;
+            font-size: 16px;
+            border-radius: 10px;
+            width: fit-content;
+            padding: 10px;
+            background-color: #fff;
+            margin-bottom: 30px;
+            .name{
+                position: absolute;
+                top: -15px;
+                font-weight: 800;
+                font-size: xx-small;
+            }
+            .timestamp{
+                margin-left: 10px;
+                font-size: xx-small;
+            }
+        }
+        .reciver{
+            margin-left: auto;
+            background-color: #dcf8c6;
+        }
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 62px;
+        border-top: 1px solid lightgray;
+
+        form{
+            flex: 1;
+            display: flex;
+            input{
+                flex: 1;
+                border-radius: 30px;
+                padding: 10px;
+                border: none;
+            }
+            button{
+                display: none;
+            }
+        }
+        .MuiSvgIcon-root{
+            padding: 10px;
+            color: gray;
+        }
+    }
+}

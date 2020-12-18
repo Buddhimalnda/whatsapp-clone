@@ -1,0 +1,53 @@
+{
+  "user": [
+    { "_id": 1, "name": "buddhi", "password": "123456", "img": true },
+    { "_id": 2, "name": "Imash", "password": "123456" },
+    { "_id": 3, "name": "akila", "password": "123456" }
+  ],
+  "chat": {
+    "room": [
+      { "_id": 1, "name": "React webina" },
+      { "_id": 2, "name": "Admins of Edutalk Hub" }
+    ],
+    "chats": [
+      {
+        "_id": 1,
+        "name": "React webina",
+        "mzj": [
+          { "_id": 1, "user": "buddhi", "mzj": "Hey Guys", "time": "12:00 AM" },
+          {
+            "_id": 2,
+            "user": "Imash",
+            "mzj": "Hello, Buddhi. where is Imash",
+            "time": "12:01 AM"
+          },
+          {
+            "_id": 3,
+            "user": "akila",
+            "mzj": "Hi, I'm here.What are you doing?",
+            "time": "12:02 AM"
+          }
+        ]
+      },
+      {
+        "_id": 2,
+        "name": "Admins of Edutalk Hub",
+        "mzj": [
+          { "_id": 1, "user": "akila", "mzj": "Hey Guys", "time": "1:00 AM" },
+          {
+            "_id": 2,
+            "user": "Imash",
+            "mzj": "Hello, Buddhi. where is Imash",
+            "time": "1:01 AM"
+          },
+          {
+            "_id": 3,
+            "user": "buddhi",
+            "mzj": "Hi, I'm here.",
+            "time": "1:02 AM"
+          }
+        ]
+      }
+    ]
+  }
+}
